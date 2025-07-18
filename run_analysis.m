@@ -6,10 +6,13 @@ pkg load csg-toolkit
 assemble_data
 
 ## Process each bone and compute pair-matching statistics
-Femur_stats
-Humerus_stats
-Tibia_stats
-Ulna_stats
+compute_stats
+
+## Process each bone and plot pair-matching statistics
+plot_Femur_stats
+plot_Humerus_stats
+plot_Tibia_stats
+plot_Ulna_stats
 
 ## Create randomized assemblages as testing datasets
 create_datasets
