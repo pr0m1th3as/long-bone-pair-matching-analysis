@@ -20,7 +20,7 @@ Ulna_lb = Ulna_sd;
 Ulna_ub = Ulna_sd;
 Ulna_id = ones (size (Ulna_sd));
 
-## Calculate bin centers to +- 6 STDs
+## Calculate bin centers to +- 7 STDs
 bins = ([-70:70] * 0.1)' * Ulna_sd + Ulna_mu;
 ## Set percentage threshold below which a variable is ignored
 threshold = 17;

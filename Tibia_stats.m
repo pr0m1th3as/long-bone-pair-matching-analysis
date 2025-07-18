@@ -20,7 +20,7 @@ Tibia_lb = Tibia_sd;
 Tibia_ub = Tibia_sd;
 Tibia_id = ones (size (Tibia_sd));
 
-## Calculate bin centers to +- 6 STDs
+## Calculate bin centers to +- 7 STDs
 bins = ([-70:70] * 0.1)' * Tibia_sd + Tibia_mu;
 ## Set percentage threshold below which a variable is ignored
 threshold = 17;

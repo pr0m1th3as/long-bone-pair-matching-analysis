@@ -20,7 +20,7 @@ Humerus_lb = Humerus_sd;
 Humerus_ub = Humerus_sd;
 Humerus_id = ones (size (Humerus_sd));
 
-## Calculate bin centers to +- 6 STDs
+## Calculate bin centers to +- 7 STDs
 bins = ([-70:70] * 0.1)' * Humerus_sd + Humerus_mu;
 ## Set percentage threshold below which a variable is ignored
 threshold = 17;

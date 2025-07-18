@@ -20,7 +20,7 @@ Femur_lb = Femur_sd;
 Femur_ub = Femur_sd;
 Femur_id = ones (size (Femur_sd));
 
-## Calculate bin centers to +- 6 STDs
+## Calculate bin centers to +- 7 STDs
 bins = ([-70:70] * 0.1)' * Femur_sd + Femur_mu;
 ## Set percentage threshold below which a variable is ignored
 threshold = 17;
