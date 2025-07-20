@@ -236,10 +236,10 @@ F4table = table (table (FLmu(:,4), FLsd(:,4), "VariableNames", {'mean', 'std'}),
                  "RowNames", varNames);
 
 ## Save tables to CSV files
-table2csv (F1table, "Femur-Stas-Athens.csv");
-table2csv (F2table, "Femur-Stas-Crete.csv");
-table2csv (F3table, "Femur-Stas-Granada.csv");
-table2csv (F4table, "Femur-Stas-Pooled.csv");
+table2csv (F1table, "Femur-Stats-Athens.csv");
+table2csv (F2table, "Femur-Stats-Crete.csv");
+table2csv (F3table, "Femur-Stats-Granada.csv");
+table2csv (F4table, "Femur-Stats-Pooled.csv");
 
 ## Clear unnecessary variables
 clear -x CSG nametoid Header varNames F1table F2table F3table F4table
@@ -450,10 +450,10 @@ H4table = table (table (HLmu(:,4), HLsd(:,4), "VariableNames", {'mean', 'std'}),
                  "RowNames", varNames);
 
 ## Save tables to CSV files
-table2csv (H1table, "Humerus-Stas-Athens.csv");
-table2csv (H2table, "Humerus-Stas-Crete.csv");
-table2csv (H3table, "Humerus-Stas-Granada.csv");
-table2csv (H4table, "Humerus-Stas-Pooled.csv");
+table2csv (H1table, "Humerus-Stats-Athens.csv");
+table2csv (H2table, "Humerus-Stats-Crete.csv");
+table2csv (H3table, "Humerus-Stats-Granada.csv");
+table2csv (H4table, "Humerus-Stats-Pooled.csv");
 
 ## Clear unnecessary variables
 clear -x CSG nametoid Header varNames F1table F2table F3table F4table ...
@@ -665,10 +665,10 @@ T4table = table (table (TLmu(:,4), TLsd(:,4), "VariableNames", {'mean', 'std'}),
                  "RowNames", varNames);
 
 ## Save tables to CSV files
-table2csv (T1table, "Tibia-Stas-Athens.csv");
-table2csv (T2table, "Tibia-Stas-Crete.csv");
-table2csv (T3table, "Tibia-Stas-Granada.csv");
-table2csv (T4table, "Tibia-Stas-Pooled.csv");
+table2csv (T1table, "Tibia-Stats-Athens.csv");
+table2csv (T2table, "Tibia-Stats-Crete.csv");
+table2csv (T3table, "Tibia-Stats-Granada.csv");
+table2csv (T4table, "Tibia-Stats-Pooled.csv");
 
 ## Clear unnecessary variables
 clear -x CSG nametoid Header varNames F1table F2table F3table F4table ...
@@ -881,10 +881,10 @@ U4table = table (table (ULmu(:,4), ULsd(:,4), "VariableNames", {'mean', 'std'}),
                  "RowNames", varNames);
 
 ## Save tables to CSV files
-table2csv (U1table, "Ulna-Stas-Athens.csv");
-table2csv (U2table, "Ulna-Stas-Crete.csv");
-table2csv (U3table, "Ulna-Stas-Granada.csv");
-table2csv (U4table, "Ulna-Stas-Pooled.csv");
+table2csv (U1table, "Ulna-Stats-Athens.csv");
+table2csv (U2table, "Ulna-Stats-Crete.csv");
+table2csv (U3table, "Ulna-Stats-Granada.csv");
+table2csv (U4table, "Ulna-Stats-Pooled.csv");
 
 ## Clear unnecessary variables
 clear -x F1table F2table F3table F4table H1table H2table H3table H4table ...
