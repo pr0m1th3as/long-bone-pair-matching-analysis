@@ -252,7 +252,7 @@ for c = 1:3
   Humerus = [];
 
   ## Left side
-  data = CSG{2, (c - 1) * 8 + 1};
+  data = CSG{2, (c - 1) * 8 + 3};
   sIdx = cell2mat (cellfun (nametoid, data([2:end],1), "UniformOutput", false));
   side = ones (size (sIdx));
   collection = c * ones (size (sIdx));
@@ -260,7 +260,7 @@ for c = 1:3
   Humerus = [Humerus; sIdx, side, collection, measurements];
 
   ## Right side
-  data = CSG{2, (c - 1) * 8 + 2};
+  data = CSG{2, (c - 1) * 8 + 4};
   sIdx = cell2mat (cellfun (nametoid, data([2:end],1), "UniformOutput", false));
   side = 2 * ones (size (sIdx));
   collection = c * ones (size (sIdx));
@@ -467,7 +467,7 @@ for c = 1:3
   Tibia = [];
 
   ## Left side
-  data = CSG{2, (c - 1) * 8 + 1};
+  data = CSG{2, (c - 1) * 8 + 5};
   sIdx = cell2mat (cellfun (nametoid, data([2:end],1), "UniformOutput", false));
   side = ones (size (sIdx));
   collection = c * ones (size (sIdx));
@@ -475,7 +475,7 @@ for c = 1:3
   Tibia = [Tibia; sIdx, side, collection, measurements];
 
   ## Right side
-  data = CSG{2, (c - 1) * 8 + 2};
+  data = CSG{2, (c - 1) * 8 + 6};
   sIdx = cell2mat (cellfun (nametoid, data([2:end],1), "UniformOutput", false));
   side = 2 * ones (size (sIdx));
   collection = c * ones (size (sIdx));
@@ -682,7 +682,7 @@ for c = 1:3
   Ulna = [];
 
   ## Left side
-  data = CSG{2, (c - 1) * 8 + 1};
+  data = CSG{2, (c - 1) * 8 + 7};
   sIdx = cell2mat (cellfun (nametoid, data([2:end],1), "UniformOutput", false));
   side = ones (size (sIdx));
   collection = c * ones (size (sIdx));
@@ -690,7 +690,7 @@ for c = 1:3
   Ulna = [Ulna; sIdx, side, collection, measurements];
 
   ## Right side
-  data = CSG{2, (c - 1) * 8 + 2};
+  data = CSG{2, (c - 1) * 8 + 8};
   sIdx = cell2mat (cellfun (nametoid, data([2:end],1), "UniformOutput", false));
   side = 2 * ones (size (sIdx));
   collection = c * ones (size (sIdx));
